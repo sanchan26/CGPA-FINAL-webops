@@ -1,0 +1,182 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+
+}
+
+.result {
+	background-color:HotPink;
+	color:black;
+	width:15%;
+	height:20%;
+	padding:1rem;
+	text-align:center;
+	font-size:1.25rem;
+	font-family:Andada;
+	font-weight:800px;
+	margin:5% auto;
+	border-radius:2rem;
+}
+
+#ff {
+	color:black;
+	font-weight:800;
+}
+
+body
+{
+	background-color:Bisque;
+
+}
+
+.main-heading{
+	font-family:Alatsi;
+	text-align:center;
+	margin-top:3%;
+	font-size:2rem;
+}
+
+.Master-container input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  
+  box-sizing: border-box;
+  border: 3px solid black;
+
+  transition: width 0.5s ease-in-out, border 0.5s ease-in-out;
+  outline: none;
+}
+
+.Master-container input[type=text]:focus {
+  border: 3px solid #555;
+  width:90%;
+}
+
+
+
+.previous input{
+	  width: 60%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  border: none;
+	  border-bottom: 2px solid black;
+	  transition: width 0.4s ease-in-out;
+	  background-color:salmon;
+}
+
+.previous ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  font-family:;
+}
+.heading{
+	font-family:Arbutus Slab;
+	
+}
+
+legend {
+	font-family:Arbutus Slab;
+	font-size:1.5rem;
+	font-weight:800px;
+}
+
+fieldset{
+	border:3px solid black;
+
+}
+
+.Master-container{
+	width:90%;
+	margin:4% auto;
+	padding:0.75rem;
+	display:flex;
+	
+	border-radius:10px;
+	justify-content:space-evenly;
+	background-color:salmon;
+
+}
+
+.course-code{
+	width:30%;
+	padding:0.75rem;
+	
+	border-radius:10px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+
+}
+
+.grade {
+	width:30%;
+	padding:0.75rem;
+	
+	border-radius:10px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.credits{
+	width:30%;
+	padding:0.75rem;
+	
+	border-radius:10px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.course-code,.grade label {
+	font-size:1.1rem;
+}
+
+.previous{
+	width:50%;
+	margin:7% auto;
+	padding:1rem;
+	border-radius:10px;
+	font-family:Andada;
+	font-weight:700;
+	background-color:salmon;
+}
+
+button {
+	padding:0.2rem;
+	text-align:center;
+	width:10%;
+	height:2.55rem;
+	margin:4% auto;
+	border-radius:1rem;
+	background-color:Green;
+	z-index:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family:Andada;
+	font-size:1.5rem;
+	font-weight:800;
+	transition:width 0.1s ease-in-out,height 0.1s ease-in-out,z-index 0.1s ease-in-out;
+}
+
+button:hover {
+	width:10.5%;
+	height:3rem;
+	z-index: 2;
+	cursor:pointer;
+}
+
+#alert {
+	
+	color:black;
+	
+	margin-top:5%;
+	text-align:center;
+	font-size:1.75rem;
+	font-family:Black Han Sans;
+	font-weight:800px;
+	
+	
+}

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Know your CGPA</title>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="CGPAstyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Andada' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Black Han Sans' rel='stylesheet'>
+</head>
+<body>
+<div class="main-heading">
+    <h1>Know Your CGPA</h1> 
+</div>
+    <div class="Master-container">
+        <div class="course-code">
+            
+            <form>
+                <fieldset>
+                <legend>Course Name</legend>
+                <label for="course1"> 1) </label>
+                <input type="text" id="course1" name="course_1" placeholder="Enter Course Name"></input><br><br>
+                <label for="course2"> 2) </label>
+                <input type="text" id="course2" name="course_2" placeholder="Enter Course Name"></input><br><br>
+                <label for="course3"> 3) </label>
+                <input type="text" id="course3" name="course_3" placeholder="Enter Course Name"></input><br><br>
+                <label for="course4"> 4) </label>
+                <input type="text" id="course4" name="course_4" placeholder="Enter Course Name"></input><br><br>
+                <label for="course5"> 5) </label>
+                <input type="text" id="course5" name="course_5" placeholder="Enter Course Name"></input><br><br>
+                <label for="course6"> 6) </label>
+                <input type="text" id="course6" name="course_6" placeholder="Enter Course Name"></input><br><br>
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="grade">
+           
+            <form>
+                <fieldset>
+                <legend>Grade</legend>
+                <label for="grade1"> 1) </label>
+                <input type="text" id="grade1" name="grade_1" placeholder="Enter Your Grade" maxlength="1"></input><br><br>
+                <label for="grade2"> 2) </label>
+                <input type="text" id="grade2" name="grade_2" placeholder="Enter Your Grade" maxlength="1"></input><br><br>
+                <label for="grade3"> 3) </label>
+                <input type="text" id="grade3" name="grade_3" placeholder="Enter Your Grade" maxlength="1"></input><br><br>
+                <label for="grade4"> 4) </label>
+                <input type="text" id="grade4" name="grade_4" placeholder="Enter Your Grade" maxlength="1"></input><br><br>
+                <label for="grade5"> 5) </label>
+                <input type="text" id="grade5" name="grade_5" placeholder="Enter Your Grade" maxlength="1"></input><br><br>
+                <label for="grade6"> 6) </label>
+                <input type="text" id="grade6" name="grade_6" placeholder="Enter Your Grade" maxlength="1"></input><br><br>
+                </fieldset>
+            </form>
+        </div>
+
+         <div class="credits">
+           
+            <form>
+                <fieldset>
+                <legend>Credits</legend>
+                <label for="credit1"> 1) </label>
+                <input type="text" id="credit1" name="credit_1" placeholder="credits for this" maxlength="2"></input><br><br>
+                <label for="credit2"> 2) </label>
+                <input type="text" id="credit2" name="credit_2" placeholder="credits for this" maxlength="2"></input><br><br>
+                <label for="credit3"> 3) </label>
+                <input type="text" id="credit3" name="credit_3" placeholder="credits for this" maxlength="2"></input><br><br>
+                <label for="credit4"> 4) </label>
+                <input type="text" id="credit4" name="credit_4" placeholder="credits for this" maxlength="2"></input><br><br>
+                <label for="credit5"> 5) </label>
+                <input type="text" id="credit5" name="credit_5" placeholder="credits for this" maxlength="2"></input><br><br>
+                <label for="credit6"> 6) </label>
+                <input type="text" id="credit6" name="credit_6" placeholder="credits for this" maxlength="2"></input><br><br>
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+    <div class="previous">
+        <form>
+            <label for="lastcg">Your Current CGPA:</label>
+            <input type="text" id="lastcg" name="last_cg" placeholder="Enter 0 if you are in first semester"></input><br>
+            <label for="credits">No.Of Credits completed:</label>
+            <input type="text" id="credits" name="creditspa" placeholder="Enter 0 if you are in first semester"></input>
+        </form>
+    </div>
+    <div class="result">
+        <p>Your CGPA is:</p>
+            <p id="ff"></p>
+    </div>
+    <p id="alert"></p>
+    <button onclick="cgpa()">Calculate</button>
+    
+    <script src="scriptCGPA.js"></script>
+</body>
+</html>
