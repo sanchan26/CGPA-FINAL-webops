@@ -157,6 +157,8 @@ x = grade1*credit1 + grade2*credit2 + grade3*credit3 + grade4*credit4 + grade5*c
 y = credit1 + credit2 + credit3 + credit4 + credit5 + credit6;
 
 z = (currentcg*creditscompleted + x)/(creditscompleted+y);
+	
+z=z.toFixed(2)
 
 
 document.getElementById("ff").innerHTML=z;
