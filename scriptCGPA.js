@@ -112,7 +112,7 @@ else {
 
 var f = parseInt(document.getElementById("credit6").value);
 
-if(typeof(document.getElementById("credit6").value)=== 'number')
+if(typeof f === 'number')
 	{
 	
 	var credit6= f;
@@ -127,7 +127,7 @@ else {
 
 var g = parseInt(document.getElementById("lastcg").value);
 
-if(typeof g=== 'number')
+if(typeof g === 'number')
 	{
 	
 	var currentcg = g;
