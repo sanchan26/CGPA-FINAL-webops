@@ -42,113 +42,118 @@ var grade5 = gradesorter(document.getElementById("grade5").value);
 
 var grade6 = gradesorter(document.getElementById("grade6").value);
 
- var a=parseInt(document.getElementById("credit1").value);
-if(typeof a === 'number')
-	{
-	
-	var credit1 = a ;
+var a =document.getElementById("credit1").value;
 
-	}
+if ( a === '') {
 
-else {
 	var credit1 = 0;
-	}
 
-var b= parseInt(document.getElementById("credit2").value);
+}
 
-if(typeof b=== 'number')
+else {
+
+	var credit1 = parseInt(document.getElementById("credit1").value);
+
+}
+
+
+var b= document.getElementById("credit2").value;
+
+if( b === '')
 	{
 	
-	var credit2= b;
+	var credit2= 0;
 
 	}
 
 else {
 
-	var credit2 = 0;
+	var credit2 =  parseInt(document.getElementById("credit2").value);
 	
 	}
 
-var c = parseInt(document.getElementById("credit3").value);
+var c = document.getElementById("credit3").value;
 
-if(typeof c=== 'number')
+if( c=== '')
 	{
 	
-	var credit3= c;
-
-	}
-
-else {
 	var credit3 = 0;
+
+
 	}
 
-var d = parseInt(document.getElementById("credit4").value);
+else {
+	var credit3 = parseInt(document.getElementById("credit3").value);
+	}
 
-if(typeof d === 'number')
+var d = document.getElementById("credit4").value;
+
+if( d === '')
 	{
 	
-	var credit4= d;
+	var credit4= 0;
 
 	}
 
 else {
 
-	var credit4 = 0;
+	var credit4 = parseInt(document.getElementById("credit4").value);
 }	
 
-var e = parseInt(document.getElementById("credit5").value);
+var e = document.getElementById("credit5").value;
 
-if(typeof e === 'number')
+if( e === '')
 	{
 	
-	var credit5= e;
-
-	}
-
-else {
-
 	var credit5 = 0;
+
+	}
+
+else {
+
+	var credit5 = parseInt(document.getElementById("credit5").value);
 }	
 
-var f = parseInt(document.getElementById("credit6").value);
+var f = document.getElementById("credit6").value;
 
-if(typeof f === 'number')
+if( f === '')
 	{
 	
-	var credit6= f;
+	var credit6 =  0;
 
 	}
 
 else {
 
-	var credit6 = 0;
+	var credit6 =  parseInt(document.getElementById("credit6").value);
 	
 }
 
-var g = parseInt(document.getElementById("lastcg").value);
+var g = document.getElementById("lastcg").value;
 
-if(typeof g === 'number')
+if( g === '')
 	{
 	
-	var currentcg = g;
+	var currentcg = 0;
 
 	}
 
 else {
-var currentcg = 0;
+var currentcg = parseInt(document.getElementById("lastcg").value);
 }
 
-var h = parseInt(document.getElementById("credits").value);
+var h = document.getElementById("credits").value;
 
-if(typeof h=== 'number')
+if( h=== '')
 	{
 	
-	var creditscompleted = h;
+	var creditscompleted = 0;
 
 	}
 
 else {
-var creditscompleted = 0;
+var creditscompleted = parseInt(document.getElementById("credits").value);
+
 }
 var x,y,z;
 
@@ -157,8 +162,10 @@ x = grade1*credit1 + grade2*credit2 + grade3*credit3 + grade4*credit4 + grade5*c
 y = credit1 + credit2 + credit3 + credit4 + credit5 + credit6;
 
 z = (currentcg*creditscompleted + x)/(creditscompleted+y);
-	
-z=z.toFixed(2)
+
+
+
+z=z.toFixed(2);
 
 
 document.getElementById("ff").innerHTML=z;

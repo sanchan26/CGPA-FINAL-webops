@@ -52,11 +52,27 @@ body
   outline: none;
 }
 
+.Master-container input[type=number] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  
+  box-sizing: border-box;
+  border: 3px solid black;
+
+  transition: width 0.5s ease-in-out, border 0.5s ease-in-out;
+  outline: none;
+}
+
 .Master-container input[type=text]:focus {
   border: 3px solid #555;
   width:90%;
 }
 
+.Master-container input[type=number]:focus {
+  border: 3px solid #555;
+  width:90%;
+}
 
 
 .previous input{
