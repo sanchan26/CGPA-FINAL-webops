@@ -55,7 +55,7 @@ body
 
 select {
 		width: 80%;
-		padding: 12px 17px;
+		padding: 12px 20px;
 	  margin: 8px auto;
   
 	  box-sizing: border-box;
@@ -122,7 +122,10 @@ fieldset{
 
 .grade fieldset {
 	border:3px solid black;
-	padding:20px;
+	padding-left:76px;
+	padding-right:76px;
+	padding-top:24px;
+	padding-bottom:24px;
 }
 
 .Master-container{
@@ -132,7 +135,7 @@ fieldset{
 	display:flex;
 	
 	border-radius:10px;
-	justify-content:space-around;
+	justify-content:space-evenly;
 	background-color:salmon;
 
 }
@@ -149,7 +152,7 @@ fieldset{
 }
 
 .grade {
-	width:30%;
+	width:35%;
 	padding:0.75rem;
 	
 	border-radius:10px;
@@ -168,7 +171,7 @@ fieldset{
 	align-items:center;
 }
 
-.course-code,.credits label {
+.course-code,.credits,.grade label {
 	font-size:1rem;
 }
 
