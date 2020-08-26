@@ -10,7 +10,7 @@ fieldset{
 }
 
 .result {
-	background-color:HotPink;
+	background-color:salmon;
 	color:black;
 	width:15%;
 	height:20%;
@@ -42,37 +42,51 @@ body
 }
 
 .Master-container input[type=text] {
-  width: 80%;
+  width: 75%;
   padding: 12px 20px;
   margin: 8px auto;
   
   box-sizing: border-box;
   border: 3px solid black;
 
-  transition: width 0.5s ease-in-out, border 0.5s ease-in-out;
+  transition: width 0.2s ease-in-out, border 0.2s ease-in-out;
   outline: none;
 }
 
+select {
+		width: 80%;
+		padding: 12px 17px;
+	  margin: 8px auto;
+  
+	  box-sizing: border-box;
+	  border: 3px solid black;
+
+	  
+	  outline: none;
+
+
+}
+
 .Master-container input[type=number] {
-  width: 80%;
+  width: 75%;
   padding: 12px 20px;
   margin: 8px auto;
   
   box-sizing: border-box;
   border: 3px solid black;
 
-  transition: width 0.5s ease-in-out, border 0.5s ease-in-out;
+  transition: width 0.2s ease-in-out, border 0.2s ease-in-out;
   outline: none;
 }
 
 .Master-container input[type=text]:focus {
   border: 3px solid #555;
-  width:90%;
+  width:80%;
 }
 
 .Master-container input[type=number]:focus {
   border: 3px solid #555;
-  width:90%;
+  width:80%;
 }
 
 
@@ -87,9 +101,9 @@ body
 	  background-color:salmon;
 }
 
-.previous ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: black;
-}
+
+
+
 .heading{
 	font-family:Arbutus Slab;
 	
@@ -103,7 +117,7 @@ legend {
 
 fieldset{
 	border:3px solid black;
-
+	padding:auto;
 }
 
 .Master-container{
@@ -113,7 +127,7 @@ fieldset{
 	display:flex;
 	
 	border-radius:10px;
-	justify-content:space-evenly;
+	justify-content:space-around;
 	background-color:salmon;
 
 }
@@ -149,8 +163,8 @@ fieldset{
 	align-items:center;
 }
 
-.course-code,.grade label {
-	font-size:1.1rem;
+.course-code,.credits label {
+	font-size:1rem;
 }
 
 .previous{
@@ -164,10 +178,10 @@ fieldset{
 }
 
 button {
-	padding:0.2rem;
+	padding:0.75rem;
 	text-align:center;
-	width:10%;
-	height:2.55rem;
+	width:11%;
+	height:3rem;
 	margin:4% auto;
 	border-radius:1rem;
 	background-color:Green;
@@ -176,14 +190,14 @@ button {
 	align-items:center;
 	justify-content:center;
 	font-family:Andada;
-	font-size:1.5rem;
+	font-size:1.4rem;
 	font-weight:800;
 	transition:width 0.1s ease-in-out,height 0.1s ease-in-out,z-index 0.1s ease-in-out;
 }
 
 button:hover {
-	width:10.5%;
-	height:3rem;
+	width:11.5%;
+	height:3.2rem;
 	z-index: 2;
 	cursor:pointer;
 }

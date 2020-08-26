@@ -181,5 +181,9 @@ else if ( z<=5 ){
 else if ( z<8 && z>= 5 ){
 	document.getElementById("alert").innerHTML = "Just put Little More Effort and Make it above 8!!";
 }
+
+else if ( z= "NaN") {
+	document.getElementById("alert").innerHTML = "Enter atleast one credit!!";
+}
 }
 
