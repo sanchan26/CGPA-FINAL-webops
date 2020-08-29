@@ -9,6 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Andada' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Black Han Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="main-heading">
@@ -44,17 +45,17 @@
                 <fieldset>
                 <legend>Credits</legend>
                 <label for="credit1"> 1) </label>
-                <input type="number" id="credit1" name="credit_1" placeholder="credits" maxlength="2" min="0" ></input><br><br>
+                <input type="number" id="credit1" name="credit_1" placeholder="credits" maxlength="2" min="0" required></input><br><br>
                 <label for="credit2"> 2) </label>
-                <input type="number" id="credit2" name="credit_2" placeholder="credits" maxlength="2" min="0"></input><br><br>
+                <input type="number" id="credit2" name="credit_2" placeholder="credits" maxlength="2" min="0" required></input><br><br>
                 <label for="credit3"> 3) </label>
-                <input type="number" id="credit3" name="credit_3" placeholder="credits" maxlength="2" min="0"></input><br><br>
+                <input type="number" id="credit3" name="credit_3" placeholder="credits" maxlength="2" min="0" required></input><br><br>
                 <label for="credit4"> 4) </label>
-                <input type="number" id="credit4" name="credit_4" placeholder="credits" maxlength="2" min="0"></input><br><br>
+                <input type="number" id="credit4" name="credit_4" placeholder="credits" maxlength="2" min="0" required></input><br><br>
                 <label for="credit5"> 5) </label>
-                <input type="number" id="credit5" name="credit_5" placeholder="credits" maxlength="2" min="0"></input><br><br>
+                <input type="number" id="credit5" name="credit_5" placeholder="credits" maxlength="2" min="0" required></input><br><br>
                 <label for="credit6"> 6) </label>
-                <input type="number" id="credit6" name="credit_6" placeholder="credits"  maxlength="2" min="0"></input><br><br>
+                <input type="number" id="credit6" name="credit_6" placeholder="credits"  maxlength="2" min="0" required></input><br><br>
                 </fieldset>
             </form>
         </div>
@@ -134,9 +135,9 @@
     <div class="previous">
         <form>
             <label for="lastcg">Your Current CGPA:</label>
-            <input type="number" id="lastcg" name="last_cg" ></input><br>
+            <input type="number" id="lastcg" name="last_cg" min="0" ></input><br>
             <label for="credits">No.Of Credits completed:</label>
-            <input type="number" id="credits" name="creditspa" ></input>
+            <input type="number" id="credits" name="creditspa" min="0"></input>
         </form>
     </div>
     <div class="result">
