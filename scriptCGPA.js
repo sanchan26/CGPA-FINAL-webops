@@ -178,6 +178,10 @@ else if ( z<=5 ){
 	document.getElementById("alert").innerHTML = "Dont worry Just Work Hard";
 }
 
+else if ( z>=8 && z<9){
+	document.getElementById("alert").innerHTML = "Good Try to maintain the same";
+}
+
 else if ( z<8 && z>= 5 ){
 	document.getElementById("alert").innerHTML = "Just put Little More Effort and Make it above 8!!";
 }

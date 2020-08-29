@@ -10,7 +10,7 @@ fieldset{
 }
 
 .result {
-	background-color:salmon;
+	background-color:powderblue;
 	color:black;
 	width:15%;
 	height:20%;
@@ -20,7 +20,7 @@ fieldset{
 	font-family:Andada;
 	font-weight:800px;
 	margin:5% auto;
-	border-radius:2rem;
+	border-radius:0.8rem;
 }
 
 #ff {
@@ -30,7 +30,7 @@ fieldset{
 
 body
 {
-	background-color:Bisque;
+	background-color:cadetblue;
 
 }
 
@@ -98,7 +98,7 @@ select {
 	  border: none;
 	  border-bottom: 2px solid black;
 	  transition: width 0.4s ease-in-out;
-	  background-color:salmon;
+	  background-color:powderblue;
 }
 
 
@@ -136,7 +136,7 @@ fieldset{
 	
 	border-radius:10px;
 	justify-content:space-evenly;
-	background-color:salmon;
+	background-color:powderblue;
 
 }
 
@@ -182,17 +182,17 @@ fieldset{
 	border-radius:10px;
 	font-family:Andada;
 	font-weight:700;
-	background-color:salmon;
+	background-color:powderblue;
 }
 
 button {
 	padding:0.75rem;
 	text-align:center;
-	width:11%;
-	height:3rem;
+	width:12%;
+	height:3.5rem;
 	margin:4% auto;
 	border-radius:1rem;
-	background-color:Green;
+	background-color:steelblue;
 	z-index:0;
 	display:flex;
 	align-items:center;
@@ -204,8 +204,8 @@ button {
 }
 
 button:hover {
-	width:11.5%;
-	height:3.2rem;
+	width:12.5%;
+	height:3.85rem;
 	z-index: 2;
 	cursor:pointer;
 }
