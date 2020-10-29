@@ -139,7 +139,7 @@ if( g === '')
 	}
 
 else {
-var currentcg = parseInt(document.getElementById("lastcg").value);
+var currentcg = (document.getElementById("lastcg").value);
 }
 
 var h = document.getElementById("credits").value;
